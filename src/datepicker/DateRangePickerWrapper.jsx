@@ -90,6 +90,7 @@ class DateRangePickerWrapper extends React.Component {
           customInputIcon={calendar_icon()}
           customArrowIcon={arrow_icon()}
           customCloseIcon={search_icon()}
+          reopenPickerOnClearDates={true}
           showClearDates={true}
           minimumNights={0}
           displayFormat={'YYYY/MM/DD'}
