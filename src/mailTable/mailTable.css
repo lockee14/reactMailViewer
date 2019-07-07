@@ -1,0 +1,54 @@
+@media (max-width:500px) {
+    .headCellCont {
+        border-right: 1px solid black;
+        display: inline;
+    }
+}
+
+.multipleTo {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 75%;
+}
+.toBadge {
+    vertical-align: super;
+    overflow: hidden;
+    background-color: #888888;
+    border-radius: 5px;
+    color: white;
+    height: 18px;
+    padding: 0px 4px 0px 4px;
+}
+
+.subjectRow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dateRow {
+    display: inline-block;
+    vertical-align: middle;
+    color:black;
+    font-size: 1.2em;
+    font-weight: 600;
+    
+}
+
+@media (max-width:500px) {
+    .dateRow {
+        font-size: 14px;
+        margin: 0px 0.3em auto;
+        vertical-align: top;
+    }
+}
+
+@media (max-width: 500px) {
+    .dateRow {
+        font-size: 12px;
+        margin: 0;
+        vertical-align: middle;
+    }
+}
